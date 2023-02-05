@@ -57,3 +57,22 @@ clear.addEventListener('click',()=>{
     let b=Array.from(textArea.value)
     textArea.value="";
     })
+
+
+let up=document.getElementById("UpperCase")
+
+    up.addEventListener('click',()=>{
+        let u=textArea.value.toString()
+        textArea.value=u.toUpperCase();
+    })
+
+    let lo=document.getElementById("LowerCase")
+
+    lo.addEventListener('click',()=>{
+        let u=textArea.value.toString()
+        textArea.value=u.toLowerCase();
+    })
+
+    setTimeout(()=>{
+        alert("Woring On It Use Your Own Keybord For Writing Alphabets")
+    },5000)
