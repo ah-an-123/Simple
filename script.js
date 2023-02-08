@@ -13,10 +13,6 @@ let name=prompt("Enter Your Name Please ");
 {(Array.from(userName)).forEach((element)=>{
     element.innerHTML=name;
 })}
-setTimeout(()=>{
-    alert("Woring On It Use Your Own Keybord For Writing Alphabets")
-},5000)
-
 let textArea=document.getElementById("textArea");
 document.getElementById("zero").addEventListener('click',()=>{
     textArea.value=(textArea.value+"a");
